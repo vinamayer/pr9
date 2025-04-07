@@ -36,11 +36,11 @@ public class Main {
 
 class Student {
     private String fio;
-    private final int admissionDate;
-    private final String address;
+    private int admissionDate;
+    private String address;
     private String phone;
     private int course;
-    private final String faculty;
+    private String faculty;
 
     public Student(String fio, int admissionDate, String address, String phone, int course, String faculty) {
         this.fio = fio;
@@ -51,7 +51,6 @@ class Student {
         this.faculty = faculty;
     }
 
-    // Геттеры и сеттеры согласно условиям задачи
     public String getFio() {
         return fio;
     }
